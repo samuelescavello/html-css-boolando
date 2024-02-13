@@ -1,0 +1,117 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+/* general */
+:root {
+    --color-orange: #ff6900;
+    --color-white-bg: #ffffff;
+    --color-Footer: #1a1a1a;
+}
+
+.container{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.spacearound{
+    justify-content:space-around;
+}
+
+.spacebtw{
+    justify-content: space-between;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* headerr */
+header{
+    background-color: var(--color-orange);
+    width: 100%;
+    color: #ffffff;
+}
+
+li{
+    padding-right:10px;
+    padding-top: 15px;
+}
+
+.icons{
+    padding-top: 15px;
+    color: #ffffff;
+}
+
+.logo{
+    height: auto;
+    width: 150px;
+    padding: 10px;
+}
+
+.imgclothes{
+    /* height: 300px;
+    ; */
+}
+
+i{
+    color: #ffffff;
+}
+
+/* bodyy */
+main{
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    position: relative;
+}
+
+.heart{
+    background-color:var(--color-white-bg);
+    width: 25px;
+    text-align:center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.badge{
+    width: 35px;
+    text-align: center;
+    background-color:red;
+    position: absolute;
+    bottom: 100px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.badgesecond{
+    width: 80px;
+    background-color: green;
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
