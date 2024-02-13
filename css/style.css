@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-ul {
     list-style: none;
 }
 
@@ -66,20 +63,21 @@ li{
     ; */
 }
 
-i{
+a{
     color: #ffffff;
 }
 
 /* bodyy */
 main{
-    background-color: red;
+    background-color: aquamarine;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .card{
-    height: 500px;
-    width: 300px;
+    height: 100%; 
+    width: 300px; 
+    /* width: calc(100%/3); */
     position: relative;
 }
 
@@ -115,3 +113,18 @@ main{
     font-size: 12px;
 }
 
+h2{
+    font-size:medium;
+}
+
+.pricered{
+    color: red;
+}
+
+.lineprice{
+    text-decoration: line-through;
+}
+
+.smallcont{
+    /* flex-wrap: wrap; */
+}
