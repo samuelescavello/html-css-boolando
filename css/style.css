@@ -43,11 +43,6 @@ img{
 }
 
 /* headerr */
-header{
-    /* background-color: var(--color-orange);
-    width: 100%;
-    color: #ffffff; */
-}
 
 .navbar{
     position: fixed;
@@ -88,7 +83,7 @@ a{
 
 
 
-/* bodyy */
+/* main */
 main{
     background-color: var(--color-white-bg);
     padding-top: 20px;
@@ -101,6 +96,7 @@ main{
     width: calc(100%/3 - 30px);
     position: relative;
     margin: 10px;
+    cursor: pointer;
 }
 
 .heart{
@@ -158,10 +154,6 @@ h2{
 
 .imgb{
     display: none;
-}
-
-.imgone{
-
 }
 
 .card:hover .imgone{
